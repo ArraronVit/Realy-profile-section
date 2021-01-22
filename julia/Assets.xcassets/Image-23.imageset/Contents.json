@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "We will send a SMS with a confirmation code to your new number.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "We will send a SMS with a confirmation code to your new number-2.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "We will send a SMS with a confirmation code to your new number-3.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

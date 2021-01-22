@@ -1,0 +1,900 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C188D42B63B7BB1783A222E6233C8E4 /* MRCountryPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF348FE4276CA4D553AFA2024232EFBF /* MRCountryPicker-dummy.m */; };
+		12C4AD6363A3A6340D4C5B186BA3A502 /* TinyConstraints-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C39B0686C8F635204D55BE2D843E522D /* TinyConstraints-dummy.m */; };
+		1BABA7629EE688091F6BA8F3F27435DB /* TinyConstraints+superview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50904D3A6B0889F5051B5D1CA5EAE191 /* TinyConstraints+superview.swift */; };
+		2B5D33E4A9E8D82DAD29C7B64F5F0AEE /* SwiftCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5403E6E9B5AE10ABF81C1AA4DE3453 /* SwiftCountryPicker.swift */; };
+		35C1E948CF405DF6DA57E411DE3CFA89 /* TinyConstraints-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC90B12FEEEAABA25ACFC4FDA6D9F221 /* TinyConstraints-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51E8EAED797C1E5CCA685D83896BC4A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		54C1E02419B1BABA13F6589FB61BE434 /* TinyEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6377C3EA932B2982D9E03F31BF4383 /* TinyEdgeInsets.swift */; };
+		5E13C37C2EBF04CCE875E8F15E626437 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 1AA45931F9AB7FD1A6D5052547A7D41C /* Data */; };
+		725E0BBA7E7CCED9A80EECE5EB6D5666 /* Pods-julia-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AD109D4A61202ED2CCCE1E023412BE /* Pods-julia-dummy.m */; };
+		84AECF4D54C243E11CC31D839E6401B9 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B3948490CA7D6F9C8E72F3BEEFECD4 /* Stack.swift */; };
+		AA327A004B9DBE402B4C2D283FEE5D3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BF9DBB3CE4BDBC5D43D4A3BBB082FC00 /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD0DB70D31D005302E434629BDA6E05 /* Abstraction.swift */; };
+		C3DBD83DA2882FCFBE8F703FF78D25E1 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7521A47D680DEB8D6EBC537BB8DD5 /* Constraints.swift */; };
+		CC201DE5326AA345CE1B2F42FC6412FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CE654238210C4781C47D59A4CC6104E8 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = B8E2F3CA0E838DFCA138B46CA4363D20 /* Images */; };
+		CFFB7D67F6CCEF5DB0E6B90676313B2A /* SwiftCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AF1E2D2FC51677FCFB9CAB62185EB7 /* SwiftCountryView.swift */; };
+		E2F682F8093C0CD7E1B405D33FFFCC7F /* Constrainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6DD72A7F4D2F1309B8132C86F238A6 /* Constrainable.swift */; };
+		E4C03843830E2069D453A625C45914FC /* MRCountryPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4986453A0C466110673F8627E0DDACE /* MRCountryPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEB7411C16E770FCFCF1688A337E2A43 /* SwiftCountryPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28AC186C52735217DC0D8437A9D68F59 /* SwiftCountryPicker.bundle */; };
+		F389311F1BED3999B1900816B1206DD5 /* TinyConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2000CC862D319DB8DB2746E426E0C /* TinyConstraints.swift */; };
+		F711402C9B43DFE4446EE1453FE1E3A2 /* SwiftCountryView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 0B35A40349779674A92DAA76840BA84D /* SwiftCountryView.xib */; };
+		FD66B78A2310BF3C0E8385E4B074100E /* Pods-julia-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D624940EA95D9DECF3DB6B90DE811EAB /* Pods-julia-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12CF78CEC02AE1382587681CE16ACFF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F0837541784AB173CB811F2D4D93865;
+			remoteInfo = MRCountryPicker;
+		};
+		780F5ED0CC12DEEAEB624526B733A01C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7C206C042D404F93B93041BC6094351;
+			remoteInfo = "MRCountryPicker-SwiftCountryPicker";
+		};
+		8E77E311C0126BFA271FF8F6BD01ECB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDAC1195952A591DFF935E9E255CF5F3;
+			remoteInfo = TinyConstraints;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B35A40349779674A92DAA76840BA84D /* SwiftCountryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SwiftCountryView.xib; path = MRCountryPicker/Classes/SwiftCountryView.xib; sourceTree = "<group>"; };
+		0C93AABA1A3A58FBC0E752B635C896BA /* MRCountryPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MRCountryPicker.framework; path = MRCountryPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA45931F9AB7FD1A6D5052547A7D41C /* Data */ = {isa = PBXFileReference; includeInIndex = 1; name = Data; path = MRCountryPicker/Assets/SwiftCountryPicker.bundle/Data; sourceTree = "<group>"; };
+		1CD70448B61D9EE5137335A9CFB2BD9C /* MRCountryPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRCountryPicker.xcconfig; sourceTree = "<group>"; };
+		23449D97514E709F970078BBA15CD33D /* Pods-julia-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-julia-resources.sh"; sourceTree = "<group>"; };
+		24E876F0367A9AD3BB3621D20E63F6C4 /* Pods-julia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-julia.debug.xcconfig"; sourceTree = "<group>"; };
+		28AC186C52735217DC0D8437A9D68F59 /* SwiftCountryPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftCountryPicker.bundle; path = "MRCountryPicker-SwiftCountryPicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3544ED4FB690E780CA4FFE881BA3293E /* Pods-julia.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-julia.modulemap"; sourceTree = "<group>"; };
+		4CB49CCD6E00FB0D6B5F095B0EF51A5C /* ResourceBundle-SwiftCountryPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftCountryPicker-Info.plist"; sourceTree = "<group>"; };
+		4E5403E6E9B5AE10ABF81C1AA4DE3453 /* SwiftCountryPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftCountryPicker.swift; path = MRCountryPicker/Classes/SwiftCountryPicker.swift; sourceTree = "<group>"; };
+		50904D3A6B0889F5051B5D1CA5EAE191 /* TinyConstraints+superview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TinyConstraints+superview.swift"; path = "TinyConstraints/Classes/TinyConstraints+superview.swift"; sourceTree = "<group>"; };
+		5507604C28041E7800D986C489FCDED4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55AD109D4A61202ED2CCCE1E023412BE /* Pods-julia-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-julia-dummy.m"; sourceTree = "<group>"; };
+		58A89619D170FC0FE92D346B62D66D9E /* MRCountryPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MRCountryPicker.modulemap; sourceTree = "<group>"; };
+		5B6DD72A7F4D2F1309B8132C86F238A6 /* Constrainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrainable.swift; path = TinyConstraints/Classes/Constrainable.swift; sourceTree = "<group>"; };
+		60ADDE3972F003A8EBD6718D6408D704 /* Pods-julia-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-julia-frameworks.sh"; sourceTree = "<group>"; };
+		6283B5B2958E25C5A2DDCD1A371CBC2B /* Pods-julia-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-julia-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63B3948490CA7D6F9C8E72F3BEEFECD4 /* Stack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = TinyConstraints/Classes/Stack.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C6377C3EA932B2982D9E03F31BF4383 /* TinyEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyEdgeInsets.swift; path = TinyConstraints/Classes/TinyEdgeInsets.swift; sourceTree = "<group>"; };
+		6F376FAEE26A17C5F77B039C6FC23122 /* Pods-julia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-julia.release.xcconfig"; sourceTree = "<group>"; };
+		78AF1E2D2FC51677FCFB9CAB62185EB7 /* SwiftCountryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftCountryView.swift; path = MRCountryPicker/Classes/SwiftCountryView.swift; sourceTree = "<group>"; };
+		7BC0B1962EBC61CF7265C6019BF50AA8 /* Pods_julia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_julia.framework; path = "Pods-julia.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C7521A47D680DEB8D6EBC537BB8DD5 /* Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraints.swift; path = TinyConstraints/Classes/Constraints.swift; sourceTree = "<group>"; };
+		874EF1EC5EA952B6C02BD22CA5DC217D /* Pods-julia-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-julia-acknowledgements.plist"; sourceTree = "<group>"; };
+		8EB7C977650C516EB4B3B17B04B68630 /* MRCountryPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRCountryPicker-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DD0DB70D31D005302E434629BDA6E05 /* Abstraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Abstraction.swift; path = TinyConstraints/Classes/Abstraction.swift; sourceTree = "<group>"; };
+		A69DE8E0A3AAF84E24D88645B9F40DD1 /* TinyConstraints.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TinyConstraints.modulemap; sourceTree = "<group>"; };
+		AF348FE4276CA4D553AFA2024232EFBF /* MRCountryPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRCountryPicker-dummy.m"; sourceTree = "<group>"; };
+		B69E16783A209313B0C74BFFB55A2A51 /* TinyConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TinyConstraints.framework; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E2F3CA0E838DFCA138B46CA4363D20 /* Images */ = {isa = PBXFileReference; includeInIndex = 1; name = Images; path = MRCountryPicker/Assets/SwiftCountryPicker.bundle/Images; sourceTree = "<group>"; };
+		BEF8AF7B1ABF0A9A154A7271EE8FFDC2 /* TinyConstraints.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyConstraints.xcconfig; sourceTree = "<group>"; };
+		C2A01D6A9AB8754E4EC4F87B32BCF017 /* TinyConstraints-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-prefix.pch"; sourceTree = "<group>"; };
+		C39B0686C8F635204D55BE2D843E522D /* TinyConstraints-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TinyConstraints-dummy.m"; sourceTree = "<group>"; };
+		D624940EA95D9DECF3DB6B90DE811EAB /* Pods-julia-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-julia-umbrella.h"; sourceTree = "<group>"; };
+		EC90B12FEEEAABA25ACFC4FDA6D9F221 /* TinyConstraints-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-umbrella.h"; sourceTree = "<group>"; };
+		ED73DBC6A29C3CD14A9FA93DBF0E9263 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C2000CC862D319DB8DB2746E426E0C /* TinyConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyConstraints.swift; path = TinyConstraints/Classes/TinyConstraints.swift; sourceTree = "<group>"; };
+		F3928D25916FFBE71F46E10B58C76DE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4986453A0C466110673F8627E0DDACE /* MRCountryPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRCountryPicker-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FA78E2C7FEE67C8A81142B420AFC6EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E8EAED797C1E5CCA685D83896BC4A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED7FE20218B391BDAFF8659CF2B5247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA327A004B9DBE402B4C2D283FEE5D3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B170ABD28817E90ADBF84D4E32181072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC201DE5326AA345CE1B2F42FC6412FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAAD6CDCC269544D0E669F6D95D605F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06A666F9D1F19F8C868F097FC65D73A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AA45931F9AB7FD1A6D5052547A7D41C /* Data */,
+				B8E2F3CA0E838DFCA138B46CA4363D20 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7C2786CAB84A220A88DFC016E37109F1 /* MRCountryPicker */ = {
+			isa = PBXGroup;
+			children = (
+				4E5403E6E9B5AE10ABF81C1AA4DE3453 /* SwiftCountryPicker.swift */,
+				78AF1E2D2FC51677FCFB9CAB62185EB7 /* SwiftCountryView.swift */,
+				0B35A40349779674A92DAA76840BA84D /* SwiftCountryView.xib */,
+				06A666F9D1F19F8C868F097FC65D73A1 /* Resources */,
+				A738E8C7BCD6EE2912A018CB24AB1106 /* Support Files */,
+			);
+			name = MRCountryPicker;
+			path = MRCountryPicker;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9F4BAE11EC74303860823ADB333E0DF8 /* Pods */,
+				C413B230A01A62F59D399B2601742EAD /* Products */,
+				D66424DB658768630EFE8D1A99C1AAE9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9F4BAE11EC74303860823ADB333E0DF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C2786CAB84A220A88DFC016E37109F1 /* MRCountryPicker */,
+				AAE8619708E2EA40C1A6A12C83614C6F /* TinyConstraints */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A738E8C7BCD6EE2912A018CB24AB1106 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3928D25916FFBE71F46E10B58C76DE4 /* Info.plist */,
+				58A89619D170FC0FE92D346B62D66D9E /* MRCountryPicker.modulemap */,
+				1CD70448B61D9EE5137335A9CFB2BD9C /* MRCountryPicker.xcconfig */,
+				AF348FE4276CA4D553AFA2024232EFBF /* MRCountryPicker-dummy.m */,
+				8EB7C977650C516EB4B3B17B04B68630 /* MRCountryPicker-prefix.pch */,
+				F4986453A0C466110673F8627E0DDACE /* MRCountryPicker-umbrella.h */,
+				4CB49CCD6E00FB0D6B5F095B0EF51A5C /* ResourceBundle-SwiftCountryPicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MRCountryPicker";
+			sourceTree = "<group>";
+		};
+		AAE8619708E2EA40C1A6A12C83614C6F /* TinyConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				9DD0DB70D31D005302E434629BDA6E05 /* Abstraction.swift */,
+				5B6DD72A7F4D2F1309B8132C86F238A6 /* Constrainable.swift */,
+				84C7521A47D680DEB8D6EBC537BB8DD5 /* Constraints.swift */,
+				63B3948490CA7D6F9C8E72F3BEEFECD4 /* Stack.swift */,
+				F2C2000CC862D319DB8DB2746E426E0C /* TinyConstraints.swift */,
+				50904D3A6B0889F5051B5D1CA5EAE191 /* TinyConstraints+superview.swift */,
+				6C6377C3EA932B2982D9E03F31BF4383 /* TinyEdgeInsets.swift */,
+				C44C2D1B37B26D402D73163BF7475575 /* Support Files */,
+			);
+			name = TinyConstraints;
+			path = TinyConstraints;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1841802DCF18B085D1226DDD280CCA7 /* Pods-julia */ = {
+			isa = PBXGroup;
+			children = (
+				5507604C28041E7800D986C489FCDED4 /* Info.plist */,
+				3544ED4FB690E780CA4FFE881BA3293E /* Pods-julia.modulemap */,
+				6283B5B2958E25C5A2DDCD1A371CBC2B /* Pods-julia-acknowledgements.markdown */,
+				874EF1EC5EA952B6C02BD22CA5DC217D /* Pods-julia-acknowledgements.plist */,
+				55AD109D4A61202ED2CCCE1E023412BE /* Pods-julia-dummy.m */,
+				60ADDE3972F003A8EBD6718D6408D704 /* Pods-julia-frameworks.sh */,
+				23449D97514E709F970078BBA15CD33D /* Pods-julia-resources.sh */,
+				D624940EA95D9DECF3DB6B90DE811EAB /* Pods-julia-umbrella.h */,
+				24E876F0367A9AD3BB3621D20E63F6C4 /* Pods-julia.debug.xcconfig */,
+				6F376FAEE26A17C5F77B039C6FC23122 /* Pods-julia.release.xcconfig */,
+			);
+			name = "Pods-julia";
+			path = "Target Support Files/Pods-julia";
+			sourceTree = "<group>";
+		};
+		C413B230A01A62F59D399B2601742EAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C93AABA1A3A58FBC0E752B635C896BA /* MRCountryPicker.framework */,
+				7BC0B1962EBC61CF7265C6019BF50AA8 /* Pods_julia.framework */,
+				28AC186C52735217DC0D8437A9D68F59 /* SwiftCountryPicker.bundle */,
+				B69E16783A209313B0C74BFFB55A2A51 /* TinyConstraints.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C44C2D1B37B26D402D73163BF7475575 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED73DBC6A29C3CD14A9FA93DBF0E9263 /* Info.plist */,
+				A69DE8E0A3AAF84E24D88645B9F40DD1 /* TinyConstraints.modulemap */,
+				BEF8AF7B1ABF0A9A154A7271EE8FFDC2 /* TinyConstraints.xcconfig */,
+				C39B0686C8F635204D55BE2D843E522D /* TinyConstraints-dummy.m */,
+				C2A01D6A9AB8754E4EC4F87B32BCF017 /* TinyConstraints-prefix.pch */,
+				EC90B12FEEEAABA25ACFC4FDA6D9F221 /* TinyConstraints-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TinyConstraints";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D66424DB658768630EFE8D1A99C1AAE9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1841802DCF18B085D1226DDD280CCA7 /* Pods-julia */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08928C85F03B48911FA2B0454C2CE3D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C03843830E2069D453A625C45914FC /* MRCountryPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328150E54A8391F139698F230B66ECD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C1E948CF405DF6DA57E411DE3CFA89 /* TinyConstraints-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CDA0F4F995A33E6175635013AC6A688 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD66B78A2310BF3C0E8385E4B074100E /* Pods-julia-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4F0837541784AB173CB811F2D4D93865 /* MRCountryPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E8CFEA13004D50B44E3A20D52295DD /* Build configuration list for PBXNativeTarget "MRCountryPicker" */;
+			buildPhases = (
+				7B0578BCE561926A6A8D80637BCC6622 /* Sources */,
+				B170ABD28817E90ADBF84D4E32181072 /* Frameworks */,
+				D5FB29CD6EEF43164450DEE3FCC09816 /* Resources */,
+				08928C85F03B48911FA2B0454C2CE3D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43ADDC57A045EF31A421B8E06ADC3715 /* PBXTargetDependency */,
+			);
+			name = MRCountryPicker;
+			productName = MRCountryPicker;
+			productReference = 0C93AABA1A3A58FBC0E752B635C896BA /* MRCountryPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76A0A8DFBCE82D6D00FCE6415A1C9282 /* Pods-julia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4386E63CD0E4BF7926AB37B6A59648 /* Build configuration list for PBXNativeTarget "Pods-julia" */;
+			buildPhases = (
+				3E655E885CF2B7070B1592680C0E3C20 /* Sources */,
+				7FA78E2C7FEE67C8A81142B420AFC6EF /* Frameworks */,
+				6CDA0F4F995A33E6175635013AC6A688 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9146EA66073D169A706A9B561DE89FB2 /* PBXTargetDependency */,
+				AEC6AC435B93D88CEDDC96C507DF8734 /* PBXTargetDependency */,
+			);
+			name = "Pods-julia";
+			productName = "Pods-julia";
+			productReference = 7BC0B1962EBC61CF7265C6019BF50AA8 /* Pods_julia.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7C206C042D404F93B93041BC6094351 /* MRCountryPicker-SwiftCountryPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87D4BC34EA8C7AF81FC7022B097FC60D /* Build configuration list for PBXNativeTarget "MRCountryPicker-SwiftCountryPicker" */;
+			buildPhases = (
+				FBC8B72A616CFB4004BA0D908C465ED7 /* Sources */,
+				CBAAD6CDCC269544D0E669F6D95D605F /* Frameworks */,
+				35D0F330A1D7E63524907EEB201A06EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MRCountryPicker-SwiftCountryPicker";
+			productName = "MRCountryPicker-SwiftCountryPicker";
+			productReference = 28AC186C52735217DC0D8437A9D68F59 /* SwiftCountryPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CDAC1195952A591DFF935E9E255CF5F3 /* TinyConstraints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B237B8F922DBCC65E74B4639B7D87B /* Build configuration list for PBXNativeTarget "TinyConstraints" */;
+			buildPhases = (
+				08A2BABB1FC6D989FBC0F415E96F8A21 /* Sources */,
+				8ED7FE20218B391BDAFF8659CF2B5247 /* Frameworks */,
+				328150E54A8391F139698F230B66ECD9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyConstraints;
+			productName = TinyConstraints;
+			productReference = B69E16783A209313B0C74BFFB55A2A51 /* TinyConstraints.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C413B230A01A62F59D399B2601742EAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F0837541784AB173CB811F2D4D93865 /* MRCountryPicker */,
+				A7C206C042D404F93B93041BC6094351 /* MRCountryPicker-SwiftCountryPicker */,
+				76A0A8DFBCE82D6D00FCE6415A1C9282 /* Pods-julia */,
+				CDAC1195952A591DFF935E9E255CF5F3 /* TinyConstraints */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35D0F330A1D7E63524907EEB201A06EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E13C37C2EBF04CCE875E8F15E626437 /* Data in Resources */,
+				CE654238210C4781C47D59A4CC6104E8 /* Images in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FB29CD6EEF43164450DEE3FCC09816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB7411C16E770FCFCF1688A337E2A43 /* SwiftCountryPicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08A2BABB1FC6D989FBC0F415E96F8A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9DBB3CE4BDBC5D43D4A3BBB082FC00 /* Abstraction.swift in Sources */,
+				E2F682F8093C0CD7E1B405D33FFFCC7F /* Constrainable.swift in Sources */,
+				C3DBD83DA2882FCFBE8F703FF78D25E1 /* Constraints.swift in Sources */,
+				84AECF4D54C243E11CC31D839E6401B9 /* Stack.swift in Sources */,
+				1BABA7629EE688091F6BA8F3F27435DB /* TinyConstraints+superview.swift in Sources */,
+				12C4AD6363A3A6340D4C5B186BA3A502 /* TinyConstraints-dummy.m in Sources */,
+				F389311F1BED3999B1900816B1206DD5 /* TinyConstraints.swift in Sources */,
+				54C1E02419B1BABA13F6589FB61BE434 /* TinyEdgeInsets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E655E885CF2B7070B1592680C0E3C20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725E0BBA7E7CCED9A80EECE5EB6D5666 /* Pods-julia-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B0578BCE561926A6A8D80637BCC6622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C188D42B63B7BB1783A222E6233C8E4 /* MRCountryPicker-dummy.m in Sources */,
+				2B5D33E4A9E8D82DAD29C7B64F5F0AEE /* SwiftCountryPicker.swift in Sources */,
+				CFFB7D67F6CCEF5DB0E6B90676313B2A /* SwiftCountryView.swift in Sources */,
+				F711402C9B43DFE4446EE1453FE1E3A2 /* SwiftCountryView.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC8B72A616CFB4004BA0D908C465ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43ADDC57A045EF31A421B8E06ADC3715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MRCountryPicker-SwiftCountryPicker";
+			target = A7C206C042D404F93B93041BC6094351 /* MRCountryPicker-SwiftCountryPicker */;
+			targetProxy = 780F5ED0CC12DEEAEB624526B733A01C /* PBXContainerItemProxy */;
+		};
+		9146EA66073D169A706A9B561DE89FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRCountryPicker;
+			target = 4F0837541784AB173CB811F2D4D93865 /* MRCountryPicker */;
+			targetProxy = 12CF78CEC02AE1382587681CE16ACFF9 /* PBXContainerItemProxy */;
+		};
+		AEC6AC435B93D88CEDDC96C507DF8734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinyConstraints;
+			target = CDAC1195952A591DFF935E9E255CF5F3 /* TinyConstraints */;
+			targetProxy = 8E77E311C0126BFA271FF8F6BD01ECB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C78BABCF11FBFA387595B8815D43FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3658DFC760109C0528821D5052503A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F376FAEE26A17C5F77B039C6FC23122 /* Pods-julia.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-julia/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-julia/Pods-julia.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42261BE7D0CE75750A0DC5D850838061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF8AF7B1ABF0A9A154A7271EE8FFDC2 /* TinyConstraints.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConstraints/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
+				PRODUCT_MODULE_NAME = TinyConstraints;
+				PRODUCT_NAME = TinyConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5BCA3DD404F16CBC95E1A424F0EB6978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6030CA77CD0EDCD795EF536935FE4AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CD70448B61D9EE5137335A9CFB2BD9C /* MRCountryPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MRCountryPicker/MRCountryPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRCountryPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MRCountryPicker/MRCountryPicker.modulemap";
+				PRODUCT_MODULE_NAME = MRCountryPicker;
+				PRODUCT_NAME = MRCountryPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC3AEEC0B9E0EDE30B63CEC3513B5628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CD70448B61D9EE5137335A9CFB2BD9C /* MRCountryPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MRCountryPicker";
+				INFOPLIST_FILE = "Target Support Files/MRCountryPicker/ResourceBundle-SwiftCountryPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SwiftCountryPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C3BC52009DE5D83437450A09AB50DD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CD70448B61D9EE5137335A9CFB2BD9C /* MRCountryPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MRCountryPicker/MRCountryPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRCountryPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MRCountryPicker/MRCountryPicker.modulemap";
+				PRODUCT_MODULE_NAME = MRCountryPicker;
+				PRODUCT_NAME = MRCountryPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D36FA2FB249A1280CA17AB6B1E4CF4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CD70448B61D9EE5137335A9CFB2BD9C /* MRCountryPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MRCountryPicker";
+				INFOPLIST_FILE = "Target Support Files/MRCountryPicker/ResourceBundle-SwiftCountryPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SwiftCountryPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E71D916D64E55ADDF6B3C635A9128BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24E876F0367A9AD3BB3621D20E63F6C4 /* Pods-julia.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-julia/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-julia/Pods-julia.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F52228EB78DB79DACD622D16F61D0DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF8AF7B1ABF0A9A154A7271EE8FFDC2 /* TinyConstraints.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConstraints/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
+				PRODUCT_MODULE_NAME = TinyConstraints;
+				PRODUCT_NAME = TinyConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26E8CFEA13004D50B44E3A20D52295DD /* Build configuration list for PBXNativeTarget "MRCountryPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3BC52009DE5D83437450A09AB50DD50 /* Debug */,
+				6030CA77CD0EDCD795EF536935FE4AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4386E63CD0E4BF7926AB37B6A59648 /* Build configuration list for PBXNativeTarget "Pods-julia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71D916D64E55ADDF6B3C635A9128BFB /* Debug */,
+				3658DFC760109C0528821D5052503A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCA3DD404F16CBC95E1A424F0EB6978 /* Debug */,
+				2C78BABCF11FBFA387595B8815D43FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87D4BC34EA8C7AF81FC7022B097FC60D /* Build configuration list for PBXNativeTarget "MRCountryPicker-SwiftCountryPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36FA2FB249A1280CA17AB6B1E4CF4D6 /* Debug */,
+				AC3AEEC0B9E0EDE30B63CEC3513B5628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B237B8F922DBCC65E74B4639B7D87B /* Build configuration list for PBXNativeTarget "TinyConstraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52228EB78DB79DACD622D16F61D0DFC /* Debug */,
+				42261BE7D0CE75750A0DC5D850838061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

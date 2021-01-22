@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Use the _Change number_ function to transfer the data of your group account and settings from the old number to the new one. You can not undo the change. To continue, make sure that you can receiv.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Use the _Change number_ function to transfer the data of your group account and settings from the old number to the new one. You can not undo the change. To continue, make sure that you can receiv-2.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Use the _Change number_ function to transfer the data of your group account and settings from the old number to the new one. You can not undo the change. To continue, make sure that you can receiv-3.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

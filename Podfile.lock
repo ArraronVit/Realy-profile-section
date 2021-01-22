@@ -1,0 +1,20 @@
+PODS:
+  - MRCountryPicker (0.0.8)
+  - TinyConstraints (4.0.1)
+
+DEPENDENCIES:
+  - MRCountryPicker (~> 0.0.8)
+  - TinyConstraints
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MRCountryPicker
+    - TinyConstraints
+
+SPEC CHECKSUMS:
+  MRCountryPicker: 1aeea66de25cdef79dce3b91d8ad9db643c1cc01
+  TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
+
+PODFILE CHECKSUM: 83aa85ea996ed43263f2497a7f5982e76d01be87
+
+COCOAPODS: 1.5.3
